@@ -24,7 +24,10 @@ matrix = [
     range(65, 74),
     range(86, 95)
 ]
-with open("bad_apple_9x5.json") as frames:
+from pathlib import Path
+
+frames_path = Path(__file__).resolve().with_name("bad_apple_9x5.json")
+with frames_path.open() as frames:
     for row in frames:
         frame_layout = json.loads(row)
         frame = [red] * len(device.leds)
