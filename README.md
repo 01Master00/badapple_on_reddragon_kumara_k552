@@ -1,8 +1,10 @@
 # BadApple!!_on_reddragon_kumara_k552
 A 9*5 pixel display of Bad Apple!! on the Reddragon Kumara K255 keyboard
+
 note that it can run on any keyboard that has 
 1. leds that can be modified seperately
 2. is supported by OpenRGB
+3. 
 IMPORTANT: if the keymapping is off by atleast 1 led this will not look like Bad Apple!!
 
 # Parts of the project
